@@ -95,10 +95,20 @@ h1 {
   vertical-align: 30%;
 }
 
-.skills-list {
+.page-list {
   margin-left: 18px;
 }
 
-.skills-list li {
+.page-list li {
   margin-bottom: 5px;
+}
+
+.page-link {
+  color: #0f0f0f;
+  text-decoration: none;
+  background-color: #cce6ff;
+}
+
+.page-link:hover {
+  background-color: #b3d9ff;
 }
