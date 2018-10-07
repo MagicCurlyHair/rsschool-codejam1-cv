@@ -43,23 +43,52 @@ h1 {
 
 .header-paragraph {
   margin: 2px 0;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
-.page-section {
+.general-section {
   display: grid;
-  grid-template-columns: 390px 1fr;
-  grid-template-rows: repeat(8, 59px);
+  grid-template-columns: 350px 1fr;
+  grid-template-rows: repeat(8, 49px);
+  align-items: center;
   margin: 5px 0;
 }
 
 .portrait-area {
   display: inline-block;
   grid-area: 1 / 1 / span 8 / span 1;
-  border: 1px solid black;
 }
 
 .section-header {
   display: inline-block;
-  border: 1px solid black;
+}
+
+.page-paragraph {
+  font-size: 1.125em;
+}
+
+.icons-container {
+  grid-area: 7 / 2 / span 2 / 2;
+}
+
+.icon-link {
+  display: inline-block;
+  margin: 0 40px;
+  color: #0f0f0f;
+}
+
+.icon-link:hover {
+  color: #808080;
+}
+
+.phone {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.phone::after{
+  content: "+375296762200";
+  font-size: 1.5rem;
+  font-weight: normal;
+  vertical-align: 30%;
 }
