@@ -22,6 +22,7 @@
 
 body {
   font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 1.125em;
   color: #0f0f0f;
   text-align: justify;
   background-color: #f0f0f0;
@@ -43,7 +44,6 @@ h1 {
 
 .header-paragraph {
   margin: 2px 0;
-  font-size: 1.125em;
 }
 
 .page-section {
@@ -67,7 +67,6 @@ h1 {
 
 .page-paragraph {
   margin: 10px 0;
-  font-size: 1.125em;
 }
 
 .icons-container {
@@ -94,4 +93,12 @@ h1 {
   font-size: 1.5rem;
   font-weight: normal;
   vertical-align: 30%;
+}
+
+.skills-list {
+  margin-left: 18px;
+}
+
+.skills-list li {
+  margin-bottom: 5px;
 }
