@@ -46,6 +46,9 @@ h1 {
   font-size: 1.125em;
 }
 
+.page-section {
+  margin-top: 20px;
+}
 .general-section {
   display: grid;
   grid-template-columns: 350px 1fr;
@@ -55,15 +58,15 @@ h1 {
 }
 
 .portrait-area {
-  display: inline-block;
   grid-area: 1 / 1 / span 8 / span 1;
 }
 
 .section-header {
-  display: inline-block;
+  margin: 10px 0;
 }
 
 .page-paragraph {
+  margin: 10px 0;
   font-size: 1.125em;
 }
 
